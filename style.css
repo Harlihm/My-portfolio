@@ -322,6 +322,9 @@ h5 {
   padding: 0px 16rem;
 }
 
+.contactintoitem {
+  display: flex;
+}
 @media (max-width: 1199px) {
   .nav {
     transform: scale(0.9);
@@ -361,6 +364,9 @@ h5 {
     padding: 5rem;
     margin-top: 31%;
   }
+  .contactintoitem {
+    display: initial;
+  }
 }
 
 @media (max-width: 867px) {
@@ -396,6 +402,9 @@ h5 {
   }
   #main > div {
     margin-top: 15%;
+  }
+  .contactintoitem {
+    display: initial;
   }
 }
 
@@ -462,5 +471,62 @@ h5 {
     font-size: 12px;
     color: white;
     width: 10rem;
+  }
+}
+
+@media (max-width: 419px) {
+  #main > div {
+    padding: 1rem;
+    margin-top: 10%;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .ser {
+    margin: 30px;
+  }
+  h4 {
+    width: 15rem;
+  }
+  .p1 {
+    width: 12rem;
+    font-size: 12px;
+    padding: 24px 0px;
+  }
+  .por {
+    margin: 13px -70px;
+  }
+  .skill-s {
+    transform: translate(11rem, 0px);
+  }
+  .img-div {
+    transform: scale(0.7);
+    width: 28rem;
+    margin: -247px -184px;
+  }
+  .contact-row {
+    margin: -258px 0px;
+  }
+  .hh1 {
+    transform: scale(1.5);
+  }
+  .contactintoitem {
+    margin: 0px 0px 0px 16rem;
+  }
+  .contact-form {
+    transform: scale(0.5) translate(-236px, -176px);
+  }
+  .form1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px 0px 1px 6rem;
+  }
+  .form-group {
+    margin: 0px 0px 32px 0px;
+  }
+
+  .form-control {
+    width: 36rem;
   }
 }
