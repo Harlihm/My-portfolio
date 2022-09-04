@@ -8,32 +8,39 @@
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .5);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    box-shadow: 0px 1px 10px 0px rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     overflow-x: hidden;
-    overflow-y: scroll;
     height: 93%;
     transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 
-.sec-header {
-    display: flex;
-    justify-content: center;
-}
 
 .nav ul li {
     display: inline-block;
     list-style: none;
 }
-
 .nav ul li a.navinfo {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    padding: 0px 28px;
     font-family: "DM sans";
+}
+.outernav{
     display: flex;
-    align-items: end;
+    align-items: center;
+    justify-content: center;
+    background: #39a0ac3a;
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 h3 {
@@ -126,10 +133,12 @@ h5 {
 
 .progress-in {
     height: 10px;
-    /* margin: 0px 42px; */
     padding: 0px 0px 0px 0px;
     border-radius: 18px;
     background-color: #00e7ff;
+}
+#main > div{
+    padding: 55px 162px 0px;
 }
 
 .skill-s {
@@ -146,28 +155,47 @@ h5 {
 
 .services {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-between;
-    width: 124%;
-    transform: all 0.5s ease;
+    justify-content: center;
 }
 
 .service-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    text-align: center;
-    margin: 43px 33px;
-    width: 298px;
+    width: 300px;
     height: 20rem;
+    padding: 20px;
+    margin: 10px;
     border-radius: 14px;
-    box-shadow: 0px 0px 23px 4px #307c9d;
-    transform: all 0.5s ease;
+    box-shadow: 0px 0px 3px 4px #307c9d;
 }
 
+.services .service-items:hover {
+    background: #307c9d59;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: .7s ease-in;
+    -webkit-transition: .7s ease-in;
+    -moz-transition: .7s ease-in;
+    -ms-transition: .7s ease-in;
+    -o-transition: .7s ease-in;
+}
+
+.services .service-items .sa1 {
+    font-family: 'Orbitron';
+    font-size: 12px;
+    color: white;
+    width: 16rem;
+    height: 20rem;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+
+@media (max-width:600px){
+   
+}
 .img-div {
     display: flex;
     flex-direction: row;
@@ -187,23 +215,6 @@ h5 {
     border-radius: 12px;
 }
 
-.services .service-items:hover {
-    background: #307c9d;
-    transform: scale(1.2);
-    color: black;
-    border-radius: 54px;
-}
-
-.services .service-items .sa1 {
-    font-family: 'Orbitron';
-    font-size: 12px;
-    color: white;
-    width: 16rem;
-    height: 20rem;
-    word-spacing: 3px;
-    letter-spacing: 3px;
-    margin: 20px 0px;
-}
 
 .contact-row {
     transform: scale(0.66);
@@ -215,43 +226,41 @@ h5 {
     justify-content: space-between;
 }
 
-.contact-row .icon1 {
-    margin: 0px;
-    padding: 0px;
+.contact-row h4{
+    font-size: 3rem;
 }
-
+.contact-row p{
+    font-size: 2rem;
+}
 .contact-form .form1 {
     display: flex;
     justify-content: space-between;
-    margin: 57px 6rem 0px 7rem;
 }
 
 .contact-form .form1 .form-control {
     border: 1px solid aqua;
     background-color: #307c9d66;
     height: 41px;
-    width: 25rem;
+    width: 23rem;
     border-radius: 20px;
     color: aqua;
     font-size: 16px;
 }
 
 .contact-form .form2 {
-    display: flex;
-    justify-content: space-between;
     margin: 57px 6rem 0px 7rem;
-    flex-direction: column;
+    position: relative;
 }
 
 .contact-form .form2 .form-group {
-    padding: 33px 0px;
+    margin-bottom: .9rem
 }
 
 .contact-form .form2 .form-control1 {
     border: 1px solid aqua;
     background-color: #307c9d66;
     height: 41px;
-    width: 59rem;
+    width: 565px;
     border-radius: 20px;
     color: aqua;
     font-size: 16px;
@@ -261,15 +270,20 @@ h5 {
     border: 1px solid aqua;
     background-color: #307c9d66;
     height: 10rem;
-    width: 59rem;
-    border-radius: 0px;
+    width: 565px;
+    border-radius:20px;
     color: aqua;
     font-size: 16px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 
 ::placeholder {
     color: #03e9f4;
     font-size: 15px;
+    padding: 20px;
 }
 
 .btn {
@@ -294,6 +308,7 @@ h5 {
 }
 
 
+
 /* Media Queries */
 
 @media (max-width:1199px) {
@@ -303,6 +318,61 @@ h5 {
     }
 }
 
-@media (max-width:991px) {}
+@media (max-width:991px) {
+    .nav ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: .2rem;
+    }
+    .nav ul li {
+        padding: 1rem;
+    }
+    #main > div{
+        padding: 5rem;
+        margin-top: 31%;
+    }
+}
 
-@media (max-width:767px) {}
+@media (max-width:867px) {
+    .nav ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: .2rem;
+    }
+    #main > div{
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:600px) {
+    #main > div{
+        padding: 1rem;
+        margin-top: 10%;
+    }
+    p {
+        font-size: 15px;
+        color: white;
+        width: auto;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+    }
+    .hello{
+        font-size: 18px;
+        letter-spacing: 4px;
+        color: white;
+    }
+    .service-items {
+        width: 180px;
+        
+    }
+    .services .title{
+        font-size: .7rem;
+        
+    }
+    .services .service-items .sa1 {
+        font-size: 12px;
+        color: white;
+        width: 10rem;
+    }
+
+}
