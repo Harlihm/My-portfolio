@@ -163,6 +163,7 @@ h3{
     } */
     header {
      margin: 9rem 0rem 0px 3rem;
+     
     }
      .headitems h1 {
          font-size: 54px;
@@ -188,6 +189,7 @@ h3{
     }
 
     header {
+        margin-top: 18rem;
         width: 243vw;
         display: flex;
         flex-direction: column-reverse;
@@ -197,8 +199,9 @@ h3{
         transform: scale(1.5) translate(0px, -76px);
     z-index: 100;}
    .float{
-    margin-top: 0;
-    padding: 0 83px 0 0px;
+    margin-top: -12rem;
+    padding: 0 50px 0 0px;
+    position: absolute;
 
    }
 
