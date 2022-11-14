@@ -154,10 +154,35 @@ h3{
 
 
 
-@media (max-width:414px) {
+
+
+ @media (max-width:1199px) {
     html{
         zoom: 100%;
+        max-zoom: 100;
     }
+    header {
+     margin: 9rem 0rem 0px 3rem;
+    }
+     .headitems h1 {
+         font-size: 54px;
+     }
+     
+ }
+
+ @media (max-width:991px) {}
+
+ @media (max-width:767px) {
+     main {
+         width: 134vw;
+     }
+ }
+
+
+
+
+@media (max-width:414px) {
+   
     main {
         width: 243vw;
     }
@@ -192,23 +217,8 @@ h3{
 
 
  
- @media (max-width:767px) {
-     main {
-         width: 134vw;
-     }
- }
 
 
  
- @media (max-width:991px) {}
-
- @media (max-width:1199px) {
-    header {
-     margin: 9rem 0rem 0px 3rem;
-    }
-     .headitems h1 {
-         font-size: 54px;
-     }
-     
- }
+ 
  
