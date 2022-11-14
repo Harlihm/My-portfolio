@@ -194,7 +194,12 @@ h3{
    .works{
  
     flex-direction: column;
+    margin: 13px 245px 0 0px;
     
+}
+.works .imgworks{
+    width: 44rem;
+    height: 34rem;
 }
 
 }
