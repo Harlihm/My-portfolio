@@ -156,11 +156,11 @@ h3{
 
 
 
- @media (max-width:1199px) {
-    html{
+ @media screen and  (max-width:1199px) {
+    /* html{
         zoom: 100%;
         max-zoom: 100;
-    }
+    } */
     header {
      margin: 9rem 0rem 0px 3rem;
     }
@@ -170,9 +170,9 @@ h3{
      
  }
 
- @media (max-width:991px) {}
+ @media screen and  (max-width:991px) {}
 
- @media (max-width:767px) {
+ @media screen and  (max-width:767px) {
      main {
          width: 134vw;
      }
@@ -181,7 +181,7 @@ h3{
 
 
 
-@media (max-width:414px) {
+@media screen and (max-width:414px) {
    
     main {
         width: 243vw;
