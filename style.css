@@ -103,8 +103,9 @@ h3{
 .skills{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.html,.css,.js{
+.html,.css,.js,.react{
     /* width: 120px;
     height: 120px; */
     display: flex;
@@ -219,6 +220,9 @@ h3{
     .headinfo h2{
         font-size: 39px;
        
+    }
+    h4{
+        font-size: 30px;
     }
     .headinfo p {
         width: 560px;
