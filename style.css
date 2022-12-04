@@ -42,7 +42,7 @@ main{
 }
 
 h1{
-    font-size: 44px;
+    font-size: 54px;
     font-family: "inter";
     word-spacing: 0px;
     letter-spacing: 0px;
@@ -60,7 +60,18 @@ h3{
     border-left: solid 5px  #2aa6e5;
     padding: 0px 2rem;
 }
+.headitems h1 span.spa {
+    font-size: 75px;
+}
+.headinfo h2{
+    font-size: 24px;
+   
+}
 
+.headinfo p {
+    width: 396px;
+  
+}
 .btn1{
     align-items: center;
     border: 2px solid #fff;
@@ -196,8 +207,31 @@ h3{
     }
 
     .headitems{
-        transform: scale(1.5) translate(0px, -76px);
+        
+        transform:translate(0px, -131px);
     z-index: 100;}
+    .headitems h1 {
+        font-size: 88px;
+    }
+    .headitems h1 span.spa {
+        font-size: 112px;
+    }
+    .headinfo h2{
+        font-size: 39px;
+       
+    }
+    .headinfo p {
+        width: 560px;
+        font-size: 31px;
+    }
+
+    .btn1, .btn2 {
+        font-size: 30px;
+    }
+    .works div a article {
+       max-width:none;
+       /* background-color: #9ca3af; */
+    }
    .float{
     margin-top: 0;
     padding: 0 83px 0 0px;
@@ -208,7 +242,7 @@ h3{
    .works{
  
     flex-direction: column;
-    margin: 13px 245px 0 0px;
+    /* margin: 13px 245px 0 0px; */
     
 }
 .works .imgworks{
