@@ -153,6 +153,10 @@ h3{
     /* transform: scale(0.2); */
 }
 
+.downbtn{
+    color: white;
+    text-decoration: none;
+}
 
 @keyframes mover {
     0% {transform: translateY(0); }
