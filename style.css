@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     margin: 9rem 11rem 0px 12rem;
     align-items: center;
-    z-index:101;
+    z-index:100;
 }
 
 main{
@@ -35,11 +35,9 @@ main{
 .float{
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
-    position: absolute;
   width: 507px;
   height: 199px;
   margin-top: 72px;
-    z-index:1;
 
 }
 
@@ -185,7 +183,7 @@ h3{
      
     }
      .headitems h1 {
-         font-size: 50px;
+         font-size: 55px;
      }
      
  }
@@ -198,7 +196,22 @@ h3{
      }
  }
 
-
+@media screen and (max-width:512px) {
+    .headitems{
+        
+        transform:translate(0px, -131px);
+    z-index: 100;}
+    .float{
+        position: absolute;
+        z-index: 1;
+    }
+    .headitems h1 {
+        font-size: 88px;
+    }
+    .headitems h1 span.spa {
+        font-size: 112px;
+    }
+}
 
 
 @media screen and (max-width:414px) {
@@ -218,10 +231,10 @@ h3{
         transform:translate(0px, -131px);
     z-index: 100;}
     .headitems h1 {
-        font-size: 81px;
+        font-size: 88px;
     }
     .headitems h1 span.spa {
-        font-size: 110px;
+        font-size: 112px;
     }
     .headinfo h2{
         font-size: 39px;
