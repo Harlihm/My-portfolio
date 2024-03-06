@@ -34,7 +34,7 @@ main{
 .float{
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
-    
+    position: absolute;
   width: 507px;
   height: 199px;
   margin-top: 72px;
