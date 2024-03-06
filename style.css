@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     margin: 9rem 11rem 0px 12rem;
     align-items: center;
-    z-index:100;
+    z-index:101;
 }
 
 main{
@@ -185,7 +185,7 @@ h3{
      
     }
      .headitems h1 {
-         font-size: 54px;
+         font-size: 50px;
      }
      
  }
