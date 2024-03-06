@@ -38,6 +38,7 @@ main{
   width: 507px;
   height: 199px;
   margin-top: 72px;
+    z-index:-1px;
 
 }
 
