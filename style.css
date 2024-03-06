@@ -196,7 +196,7 @@ h3{
      }
  }
 
-@media screen and (max-width:512px) {
+@media screen and (max-width:428px) {
     .headitems{
         
         transform:translate(0px, -131px);
