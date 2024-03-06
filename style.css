@@ -22,6 +22,7 @@ header{
     justify-content: space-between;
     margin: 9rem 11rem 0px 12rem;
     align-items: center;
+    z-index:100;
 }
 
 main{
@@ -38,7 +39,7 @@ main{
   width: 507px;
   height: 199px;
   margin-top: 72px;
-    z-index:-1px;
+    z-index:1;
 
 }
 
