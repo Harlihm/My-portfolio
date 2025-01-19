@@ -142,9 +142,11 @@ h3{
     transition: all .5s ease;
 }
 
+
 .works div a article:hover {
     background-color: #2aa6e5;
 }
+.works div a article h4{text-align: center;}
 .works .imgworks{
     width: 22rem;
     height: 15rem;
